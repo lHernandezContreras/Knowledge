@@ -1,0 +1,6 @@
+mx\com\lf\servicio\PersonaServiceRS.class
+mx\com\lf\domain\Persona.class
+mx\com\lf\web\JAXRSActivator.class
+mx\com\lf\data\PersonaDao.class
+mx\com\lf\data\PersonaDaoImpl.class
+mx\com\lf\web\CorsFilter.class

@@ -1,0 +1,5 @@
+FROM openjdk:8-jdk-alpine
+WORKDIR /backend
+COPY . .
+EXPOSE 8080
+ENTRYPOINT ["java","backend-calculator-1.0.war"]

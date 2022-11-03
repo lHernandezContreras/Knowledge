@@ -1,0 +1,31 @@
+<div class="box" id="heading">
+  <h1>SUMAR</h1>
+</div>
+<div style="text-align: center">
+  <form>
+  <div>
+    <label>Nomber One</label>
+    <br />
+    <input
+      type='number'
+      name='numberOne'
+      placeholder='Escribe un número'
+      [(ngModel)]="numberOne"/>
+  </div>
+  <br />
+  <div>
+    <label>Nomber Two</label>
+    <br />
+    <input
+      type="number"
+      name="numberTwo"
+      placeholder="Escribe un número"
+      [(ngModel)]="numberTwo"
+    />
+  </div>
+  <br />
+  <button type="submit" style="cursor: pointer" (click)="irAdd()">R</button>
+  <button type="submit" style="cursor: pointer" (click)="irInicio()">I</button>
+  </form>
+  <p>el resultado es: {{resultado}}</p>
+</div>

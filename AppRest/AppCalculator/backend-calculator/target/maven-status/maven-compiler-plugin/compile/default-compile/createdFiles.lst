@@ -1,0 +1,6 @@
+mx\com\lf\web\JAXRSActivator.class
+mx\com\lf\domain\PairNumbers.class
+mx\com\lf\data\ICalculator.class
+mx\com\lf\services\CalculatorServices.class
+mx\com\lf\web\CorsFilter.class
+mx\com\lf\data\CalculatorImpl.class
